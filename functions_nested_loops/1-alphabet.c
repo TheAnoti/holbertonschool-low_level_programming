@@ -4,7 +4,9 @@
  * print_alphabet - Prints the alphabet in lowercase, followed by a new line.
  */
 
-int main
+int main (void)
+{
+
 void print_alphabet(void)
 {
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
@@ -14,4 +16,6 @@ for (i = 0; alphabet[i] != '\0'; i++)
 {
 _putchar(alphabet[i]);
 }
+}
+return (0);
 }
