@@ -3,6 +3,8 @@
 /**
  * print_alphabet - Prints the alphabet in lowercase, followed by a new line.
  */
+
+int main
 void print_alphabet(void)
 {
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
