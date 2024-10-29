@@ -15,5 +15,5 @@ while (*s++)
 {
 length++;
 }
-return length;
+return (length);
 }
