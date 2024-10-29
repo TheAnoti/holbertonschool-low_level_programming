@@ -11,19 +11,19 @@ int fizz_buzz(int n)
 if (n % 3 == 0 && n % 5 == 0)
 {
 printf("FizzBuzz");
-return 1;
+return (1);
 }
 else if (n % 3 == 0)
 {
 printf("Fizz");
-return 1;
+return (1);
 }
 else if (n % 5 == 0)
 {
 printf("Buzz");
-return 1;
+return (1);
 }
-return 0;
+return (0);
 }
 
 /**
