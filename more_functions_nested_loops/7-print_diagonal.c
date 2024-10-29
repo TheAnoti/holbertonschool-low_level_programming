@@ -14,14 +14,14 @@ for (i = 0; i < n; i++)
 {
 for (j = 0; j < i; j++)
 {
-_putchar(' ');  // Ajoute des espaces pour le décalage
+_putchar(' ');
 }
-_putchar('\\');  // Affiche le caractère de la diagonale
-_putchar('\n');  // Passe à la ligne suivante
+_putchar('\\');
+_putchar('\n');
 }
 }
 else
 {
-_putchar('\n');  // Affiche un retour à la ligne si n est 0 ou moins
+_putchar('\n');
 }
 }
