@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - Concatène jusqu'à n caractères d'une chaîne source à une chaîne de destination.
- * @dest: Pointeur vers la chaîne de destination.
- * @src: Pointeur vers la chaîne source.
+ * _strncat - Concatène jusu n caractères d'une chaînrc une chaîne de dest
+ * @dest: Pointeur vers la char de destination.
+ * @src: Pointeur vers la char src.
  * @n: Nombre maximum de caractères à copier de src.
  *
  * Return: Pointeur vers la chaîne résultante `dest`.
