@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - If the number is greater equal on smaller than O
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
@@ -12,11 +16,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive");
+		printf("%d is positive");
 	} else if (n == 0)
 	{
-		printf("is zero");
+		printf("%d is zero");
 	}
-	printf("is negative");
+	printf("%d is negative");
 	return (0);
 }
