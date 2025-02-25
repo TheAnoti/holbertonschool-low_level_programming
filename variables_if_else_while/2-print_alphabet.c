@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - print alphabet followed by a new line
  * return 0 (always)
