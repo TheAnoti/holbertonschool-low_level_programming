@@ -1,12 +1,14 @@
 #include <stdio.h>
-#
 /**
- * main - print alphabet followed by a new line
- * return 0 (always)
+ * main - Print alphabet
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	char y;
+
 	for (y = 'a' ; y <= 'z' ; y++)
 	{
 		putchar(y);
